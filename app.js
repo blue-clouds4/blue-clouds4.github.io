@@ -15,6 +15,7 @@ document.getElementById('command').addEventListener('keypress', function (e) {
             <p><strong>load(gui)</strong>: Load the GUI version of this website</p>
             <p><strong>clear</strong>: Clear the screen</p>
             <p><strong>nothing</strong>:does nothing</p>
+            <p><strong>repo</strong>: shows the source files of the website</p>
           </div>`;
         break;
       case 'mefetch':
@@ -60,7 +61,11 @@ document.getElementById('command').addEventListener('keypress', function (e) {
         </video>
        </div>`;
       break;
-
+      case 'repo':
+        response = `
+          <div>
+            <p><a href="https://github.com/blue-clouds4/blue-clouds4.github.io/tree/main" target="_blank" class="data-link">source-file</a></p>
+          </div>`;
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
         window.location.href = "https://blue-clouds4.github.io/gui-version-oftheweb/";
