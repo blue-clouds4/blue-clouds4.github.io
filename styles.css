@@ -7,13 +7,13 @@
 }
 
 *::selection {
-  background-color: #66999b; /* Updated selection color */
+  background-color: #66999b; 
   color: #2b3a67;
 }
 
 body {
-  background-color: #2b3a67; /* Updated background color */
-  color: #ffc482; /* Updated font color */
+  background-color: #2b3a67; 
+  color: #ffc482; 
   font-size: 15px;
   font-weight: 300;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .ascii-name {
-  color: #ffc482; /* Updated ASCII art color */
+  color: #ffc482; 
   font-size: 0.7vw;
   margin-top: 15px;
 }
@@ -62,19 +62,19 @@ body {
   border: none;
   outline: none;
   background-color: transparent;
-  color: #ffc482; /* Updated input text color */
+  color: #ffc482; 
   font-weight: 400;
   font-size: 16px;
   margin-left: 10px;
 }
 
 .input-text {
-  color: #ffc482; /* Updated input text color */
+  color: #ffc482;
 }
 
 .command-not-found {
   font-size: 17px;
-  color: #496a81; /* Updated error command color */
+  color: #496a81;
 }
 
 .data-dt {
@@ -102,7 +102,7 @@ body {
 
 .data-table {
   border-collapse: collapse;
-  color: #ffc482; /* Updated data table text color */
+  color: #ffc482;
 }
 
 .data-name-th {
@@ -118,6 +118,6 @@ body {
 
 .data-link {
   text-decoration-style: solid;
-  color: #ffc482; /* Updated link color */
+  color: #ffc482;
   cursor: pointer;
 }
