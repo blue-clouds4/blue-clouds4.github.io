@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLUE_CLOUDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-container">
+      <pre class="ascii-name">
+ 
+ _______  ___      __   __  _______          _______  ___      _______  __   __  ______   _______ 
+|  _    ||   |    |  | |  ||       |        |       ||   |    |       ||  | |  ||      | |       |
+| |_|   ||   |    |  | |  ||    ___|        |       ||   |    |   _   ||  | |  ||  _    ||  _____|
+|       ||   |    |  |_|  ||   |___         |       ||   |    |  | |  ||  |_|  || | |   || |_____ 
+|  _   | |   |___ |       ||    ___|        |      _||   |___ |  |_|  ||       || |_|   ||_____  |
+| |_|   ||       ||       ||   |___  _____  |     |_ |       ||       ||       ||       | _____| |
+|_______||_______||_______||_______||_____| |_______||_______||_______||_______||______| |_______|
+
+      </pre>
+      <div class="introduction">
+        <h3 class="message-text">
+          Pleased to have you here, fellow homo sapiens.
+        </h3>
+        <h4 class="message-text">
+          Type <span class="help-text">'help'</span> to view a list of available
+          commands.
+        </h4>
+      </div>
+      <div id="command-output">
+        <!-- all the command results goes here -->
+      </div>
+      <div class="input-container">
+        <label for="command" class="input-label">></label>
+        <input
+          type="text"
+          name="command"
+          id="command"
+          class="input-command input-text"
+          autofocus
+        />
+      </div>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
