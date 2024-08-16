@@ -50,15 +50,16 @@ document.getElementById('command').addEventListener('keypress', function (e) {
       case '1986':
         response = `<p>1986 - A hidden gem!</p>`;
         break;
-      case 'sing':
+      case 'nothing':
          response = `
           <div>
-            <p>Enjoy some music:</p>
-            <audio controls>
-              <source src="./audio.mp3" type="audio/mp3">
-              Your browser does not support the audio element.
-            </audio>
+            <p>Enjoy the video:</p>
+            <video controls width="640" height="360">
+              <source src="./nothing.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
           </div>`;
+        break;
         break;
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
