@@ -9,21 +9,12 @@ document.getElementById('command').addEventListener('keypress', function (e) {
         response = `
           <div>
             <p><strong>help</strong>: Lisst all commands</p>
-            <p><strong>cd</strong>: Change directories (navigate files)</p>
-            <p><strong>ls</strong>: List what's present</p>
             <p><strong>mefetch</strong>: About me</p>
             <p><strong>socialfetch</strong>: Social media links</p>
             <p><strong>cmatrix</strong>: put this because i was bored</p>
             <p><strong>load(gui)</strong>: Load the GUI version of this website</p>
-            <p><strong>pwd</strong>: Show current directory</p>
             <p><strong>clear</strong>: Clear the screen</p>
           </div>`;
-        break;
-      case 'cd':
-        response = `<p>You have navigated to a new directory.</p>`;
-        break;
-      case 'ls':
-        response = `<p>Listing the contents of the current directory.</p>`;
         break;
       case 'mefetch':
         response = `
@@ -61,9 +52,6 @@ document.getElementById('command').addEventListener('keypress', function (e) {
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
         window.location.href = "https://blue-clouds4.github.io/gui-version-oftheweb/";
-        break;
-      case 'pwd':
-        response = `<p>Current directory: ~/home</p>`;
         break;
       case 'clear':
         output.innerHTML = '';
