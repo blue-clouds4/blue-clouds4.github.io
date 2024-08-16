@@ -8,25 +8,24 @@ document.getElementById('command').addEventListener('keypress', function (e) {
       case 'help':
         response = `
           <div>
-            <p><strong>help</strong>: Lisst all commands</p>
+            <p><strong>help</strong>: List all commands</p>
             <p><strong>mefetch</strong>: About me</p>
             <p><strong>socialfetch</strong>: Social media links</p>
-            <p><strong>cmatrix</strong>: put this because i was bored</p>
+            <p><strong>cmatrix</strong>: Put this because I was bored</p>
             <p><strong>load(gui)</strong>: Load the GUI version of this website</p>
             <p><strong>clear</strong>: Clear the screen</p>
-            <p><strong>nothing</strong>:does nothing</p>
-            <p><strong>repo</strong>: shows the source files of the website</p>
+            <p><strong>repo</strong>: Shows the source files of the website</p>
           </div>`;
         break;
       case 'mefetch':
         response = `
-          <pre>
+          <pre style="color: #ffc482;">
                  .                      .              --->name: Blue_clouds
                  .                      ;             |->weaving dreams for the virtual sky
                  :                  - --+- -          |->i have no idea what I'm doing with my life
                  !           .          !             |->i need sleep
                  |        .             .             |->i love coding, music, experimenting with things
-                 |_         +                          --->lived since: december,2008
+                 |_         +                          --->lived since: December, 2008
               ,  | \`.                                  
         --- --+-<#>-+- ---  --  -
               \`._|_,'
@@ -51,21 +50,12 @@ document.getElementById('command').addEventListener('keypress', function (e) {
       case '1986':
         response = `<p>1986 - A hidden gem!</p>`;
         break;
-       case 'nothing':
-       response = `
-       <div>
-        <p>Enjoy the video:</p>
-         <video controls width="640" height="360">
-         <source src="https://blue-clouds4.github.io/nothing.mp4" type="video/mp4">
-        Your browser does not support the video element.
-        </video>
-       </div>`;
-      break;
       case 'repo':
         response = `
           <div>
             <p><a href="https://github.com/blue-clouds4/blue-clouds4.github.io/tree/main" target="_blank" class="data-link">source-file</a></p>
           </div>`;
+        break;
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
         window.location.href = "https://blue-clouds4.github.io/gui-version-oftheweb/";
