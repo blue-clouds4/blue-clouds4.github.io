@@ -14,7 +14,7 @@ document.getElementById('command').addEventListener('keypress', function (e) {
             <p><strong>cmatrix</strong>: put this because i was bored</p>
             <p><strong>load(gui)</strong>: Load the GUI version of this website</p>
             <p><strong>clear</strong>: Clear the screen</p>
-            <p><strong>sing</strong>: plays an audio file</p>
+            <p><strong>nothing</strong>:does nothing</p>
           </div>`;
         break;
       case 'mefetch':
@@ -50,17 +50,17 @@ document.getElementById('command').addEventListener('keypress', function (e) {
       case '1986':
         response = `<p>1986 - A hidden gem!</p>`;
         break;
-      case 'nothing':
-         response = `
-          <div>
-            <p>Enjoy the video:</p>
-            <video controls width="640" height="360">
-              <source src="./nothing.mp4" type="video/mp4">
-              Your browser does not support the video element.
-            </video>
-          </div>`;
-        break;
-        break;
+       case 'nothing':
+       response = `
+       <div>
+        <p>Enjoy the video:</p>
+         <video controls width="640" height="360">
+         <source src="https://blue-clouds4.github.io/nothing.mp4" type="video/mp4">
+        Your browser does not support the video element.
+        </video>
+       </div>`;
+      break;
+
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
         window.location.href = "https://blue-clouds4.github.io/gui-version-oftheweb/";
