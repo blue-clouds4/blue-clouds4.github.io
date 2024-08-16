@@ -14,6 +14,7 @@ document.getElementById('command').addEventListener('keypress', function (e) {
             <p><strong>cmatrix</strong>: put this because i was bored</p>
             <p><strong>load(gui)</strong>: Load the GUI version of this website</p>
             <p><strong>clear</strong>: Clear the screen</p>
+            <p><strong>sing</strong>: plays an audio file</p>
           </div>`;
         break;
       case 'mefetch':
@@ -48,6 +49,16 @@ document.getElementById('command').addEventListener('keypress', function (e) {
         break;
       case '1986':
         response = `<p>1986 - A hidden gem!</p>`;
+        break;
+      case 'sing':
+         response = `
+          <div>
+            <p>Enjoy some music:</p>
+            <audio controls>
+              <source src="./audio.mp3" type="audio/mp3">
+              Your browser does not support the audio element.
+            </audio>
+          </div>`;
         break;
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
