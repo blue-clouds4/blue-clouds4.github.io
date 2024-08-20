@@ -1,6 +1,7 @@
 # cli-website
 this is my new website with cli interface, i need sleep 
-![image](https://github.com/user-attachments/assets/c2cd0856-8182-4d66-9373-ef69b7e3fa02)
+![image](https://github.com/user-attachments/assets/d084089d-019e-4858-93ca-f7363b37c683)
+
 <br>
 try the website [here](blue-clouds4.github.io)
 <br>
