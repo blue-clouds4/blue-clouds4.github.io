@@ -12,8 +12,8 @@
 }
 
 body {
-  background-color: #2b3a67; 
-  color: #ffc482; 
+  background-color: ##211d1b; 
+  color: #dcdccc; 
   font-size: 15px;
   font-weight: 300;
 }
@@ -24,9 +24,14 @@ body {
 }
 
 .ascii-name {
-  color: #ffc482; 
+  color: #b89076; 
   font-size: 0.7vw;
   margin-top: 15px;
+  transition: text-shadow 0.3s ease;
+}
+
+ascii-name:hover {
+  text-shadow: 0 0 10px #b89076, 0 0 20px #b89076, 0 0 30px #b89076, 0 0 40px #b89076; /* Adjust the glow color and intensity */
 }
 
 .message-text {
@@ -38,7 +43,8 @@ body {
 .help-text {
   font-size: 17px;
   font-weight: 400;
-  color: #00ffab;
+  color: #73abad;
+  text-shadow:  30px #73abad;
 }
 
 .command-output {
