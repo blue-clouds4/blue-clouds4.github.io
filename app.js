@@ -58,7 +58,7 @@ document.getElementById('command').addEventListener('keypress', function (e) {
         break;
       case 'load(gui)':
         response = `<p>Loading GUI...</p>`;
-        window.location.href = "https://blue-clouds4.github.io/gui-version-oftheweb/";
+        window.location.href = "https://bleu-harsha.github.io/gui-version-oftheweb/";
         break;
       case 'clear':
         output.innerHTML = '';
