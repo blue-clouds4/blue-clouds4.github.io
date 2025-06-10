@@ -4,7 +4,9 @@ this is my new website with cli interface, i need sleep
 
 
 <br>
-try the website [here](blue-clouds4.github.io)
+
+try the website [here](bleu-harsha.github.io)
+
 <br>
 i built this because recently, cli has taken my interest hence the cli game and all.
 <br>
